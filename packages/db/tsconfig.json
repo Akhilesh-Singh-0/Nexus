@@ -1,0 +1,7 @@
+{
+  "extends": "@nexus/config/typescript/node.json",
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "include": ["src", "test-connection.ts"]
+}
