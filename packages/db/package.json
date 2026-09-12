@@ -19,5 +19,8 @@
     "@prisma/client": "^7.10.0",
     "pg": "^8.23.0",
     "@nexus/config": "*"
+  },
+  "exports": {
+    ".": "./src/client.ts"
   }
 }
